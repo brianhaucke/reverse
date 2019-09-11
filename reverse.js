@@ -5,7 +5,8 @@ function reverse(arr) {
   for (i = 0; i < arr.length; i++) {
     reversedArray[i] = arr[(arr.length - 1) - i];
   }
-  console.log(reversedArray);
+  //console.log(reversedArray);
+  return(reversedArray);
 
 }
 
